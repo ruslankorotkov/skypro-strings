@@ -22,12 +22,11 @@ public class Main {
         String small = " Ivan  Ivanovich  Ivanov ";
         System.out.println(small.toUpperCase());
     }
+
     public static void task3() {
         System.out.println(" Задача 3 ");
         String fullName = " Иванов Семён Семёнович ";
-        fullName = fullName.replace("ё","е");
+        fullName = fullName.replace("ё", "е");
         System.out.println(" Данные ФИО сотрудника — " + fullName);
-
-
     }
 }
